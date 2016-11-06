@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_dependency "activemerchant", "~> 1.60"
+  spec.add_dependency "offsite_payments", "~> 2.2"
 end
