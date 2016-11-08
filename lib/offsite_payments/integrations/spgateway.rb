@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + "/spgateway/helper.rb"
+
 module OffsitePayments
   module Integrations
     module Spgateway
