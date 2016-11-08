@@ -4,7 +4,7 @@ require "active_merchant"
 require "offsite_payments"
 
 module ActiveMerchantSpgateway
-  # Your code goes here...
+  autoload :Spgateway, "offsite_payments/integrations/spgateway"
 end
 
 ActionView::Base.send(:include, OffsitePayments::ActionViewHelper)
